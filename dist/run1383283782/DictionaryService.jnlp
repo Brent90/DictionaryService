@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="DictionaryService.jnlp">
+  <information>
+    <title>DictionaryService</title>
+    <vendor>slinger</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="DictionaryService.jar" size="33934" download="eager" />
+    <jar href="lib/annotations-api.jar" size="17353" download="eager" />
+    <jar href="lib/catalina-ant.jar" size="53338" download="eager" />
+    <jar href="lib/catalina-ha.jar" size="119795" download="eager" />
+    <jar href="lib/catalina-storeconfig.jar" size="75087" download="eager" />
+    <jar href="lib/catalina-tribes.jar" size="275888" download="eager" />
+    <jar href="lib/catalina.jar" size="1562369" download="eager" />
+    <jar href="lib/ecj-4.5.jar" size="2392920" download="eager" />
+    <jar href="lib/el-api.jar" size="81493" download="eager" />
+    <jar href="lib/jasper-el.jar" size="161642" download="eager" />
+    <jar href="lib/jasper.jar" size="586663" download="eager" />
+    <jar href="lib/jfoenix-8.0.8.jar" size="2708772" download="eager" />
+    <jar href="lib/jsp-api.jar" size="61678" download="eager" />
+    <jar href="lib/servlet-api.jar" size="244281" download="eager" />
+    <jar href="lib/tomcat-api.jar" size="9842" download="eager" />
+    <jar href="lib/tomcat-coyote.jar" size="710429" download="eager" />
+    <jar href="lib/tomcat-dbcp.jar" size="251055" download="eager" />
+    <jar href="lib/tomcat-i18n-es.jar" size="67757" download="eager" />
+    <jar href="lib/tomcat-i18n-fr.jar" size="41433" download="eager" />
+    <jar href="lib/tomcat-i18n-ja.jar" size="43535" download="eager" />
+    <jar href="lib/tomcat-jdbc.jar" size="137295" download="eager" />
+    <jar href="lib/tomcat-jni.jar" size="31475" download="eager" />
+    <jar href="lib/tomcat-util-scan.jar" size="203205" download="eager" />
+    <jar href="lib/tomcat-util.jar" size="112253" download="eager" />
+    <jar href="lib/tomcat-websocket.jar" size="215883" download="eager" />
+    <jar href="lib/websocket-api.jar" size="36662" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="DictionaryService" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="dictionaryservice.DictionaryService"  name="DictionaryService" />
+  <update check="always"/>
+</jnlp>
